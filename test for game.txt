@@ -1,0 +1,9 @@
+input_word = 0
+
+word_to_guess = "hello"
+
+while input_word != word_to_guess:
+    input_word = int(input("your word: "))
+    if input_word == word_to_guess:
+        print("well done you guessed the word!!")
+    elif input_word != word_to_guess:
